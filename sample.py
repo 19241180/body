@@ -14,7 +14,7 @@ drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 
 
 def main():
-    image = cv2.imread('画像パス')
+    image = cv2.imread('n1.jpg')
     results = holistic.process(
         cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 
